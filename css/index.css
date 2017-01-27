@@ -105,7 +105,19 @@ h2{top: 20%;
 	box-shadow: 10px 10px 5px #888888;
 	background-position: -20px 0px;
 }
-
+.devcred{
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	margin-top: 20px;
+	margin-left: 20%;
+	margin-right: 30%;
+	padding-left: 10%;
+	}
+.devteam{
+	font-style: bold;
+}
+	
 @media screen and (max-width: 980px) {
 	body{
 		background-image:url('../images/img_lite.jpg');
@@ -166,6 +178,17 @@ h2{top: 20%;
 	.main-con{
 		padding: 5%;
 		background-image: none;
+		}
+	.devcred{
+		border-style: solid;
+		border-width: 2px;
+		border-color: black;
+		margin-top: 5px;
+		margin-left: 10%;
+		margin-right: 10%;
+		background: rgba(255,255,255,0.8);
+		
+		padding-left: 10%;
 		}
 }
 
